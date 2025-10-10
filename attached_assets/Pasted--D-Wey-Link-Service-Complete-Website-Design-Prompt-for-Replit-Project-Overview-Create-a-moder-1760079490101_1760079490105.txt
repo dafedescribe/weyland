@@ -1,0 +1,782 @@
+# D-Wey Link Service - Complete Website Design Prompt for Replit
+
+## Project Overview
+Create a modern, responsive single-page website for D-Wey - a WhatsApp link shortening and analytics service. The site should be visually stunning, mobile-first, and include sections for service information, guides, media content, and clear calls-to-action.
+
+---
+
+## Technical Requirements
+
+### Tech Stack
+- **Frontend Framework**: React with Vite
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Animations**: Framer Motion (or CSS animations)
+- **Deployment**: Static site (Replit)
+
+### Project Structure
+```
+/
+├── src/
+│   ├── App.jsx (main component)
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── Features.jsx
+│   │   ├── HowItWorks.jsx
+│   │   ├── Guides.jsx
+│   │   ├── Pricing.jsx
+│   │   ├── MediaGallery.jsx
+│   │   ├── FAQ.jsx
+│   │   ├── CTA.jsx
+│   │   └── Footer.jsx
+│   ├── config/
+│   │   └── content.js (all editable content/links)
+│   └── main.jsx
+├── public/
+├── index.html
+└── package.json
+```
+
+---
+
+## Design Style Guide
+
+### Color Palette
+- **Primary**: `#10b981` (Emerald Green - WhatsApp theme)
+- **Secondary**: `#059669` (Darker green)
+- **Accent**: `#fbbf24` (Amber - for highlights)
+- **Dark**: `#0f172a` (Slate 900)
+- **Light**: `#f8fafc` (Slate 50)
+- **Text Primary**: `#1e293b` (Slate 800)
+- **Text Secondary**: `#64748b` (Slate 500)
+
+### Typography
+- **Headings**: Inter or Poppins (Bold, 700-800 weight)
+- **Body**: Inter or System UI (Regular, 400-500 weight)
+- **Code/Stats**: JetBrains Mono or Fira Code
+
+### Design Principles
+1. **Modern & Clean**: Lots of whitespace, clear hierarchy
+2. **Mobile-First**: Perfect on phones, great on desktop
+3. **Micro-Animations**: Subtle hover effects, smooth transitions
+4. **Glassmorphism**: For cards and sections (backdrop-blur)
+5. **Bold Typography**: Large, impactful headings
+6. **Vibrant Gradients**: Green to emerald, amber accents
+7. **Dark Mode Support**: Toggle between light/dark themes
+
+---
+
+## Page Sections (Detailed Specifications)
+
+### 1. Navigation Bar
+**Position**: Sticky top, glassmorphic background
+**Elements**:
+- Logo: "D-Wey" with WhatsApp green icon
+- Menu items: Features, How It Works, Guides, Pricing, FAQ
+- CTA Button: "Start Free" (prominent, animated)
+- Mobile hamburger menu
+
+**Behavior**:
+- Smooth scroll to sections
+- Background blur on scroll
+- Hide/show on scroll direction
+
+---
+
+### 2. Hero Section
+**Layout**: Full viewport height, split content
+**Left Side** (60%):
+- **Main Headline**: "Turn WhatsApp Numbers Into Trackable Links"
+  - Font: 3xl-6xl, bold, gradient text (green to emerald)
+- **Subheadline**: "Create short links, track clicks, grow your business. All from WhatsApp."
+  - Font: lg-xl, text-gray-600
+- **Key Stats** (3 columns):
+  - "1000 Free Tums" - New user bonus
+  - "24/7 Active" - Link duration
+  - "20 Tums/Day" - Maintenance cost
+- **CTA Buttons**:
+  - Primary: "Start Creating Links" → Opens WhatsApp chat
+  - Secondary: "Watch Demo" → Scrolls to video section
+
+**Right Side** (40%):
+- Animated mockup/illustration:
+  - Phone showing WhatsApp interface
+  - Short link example: "d-wey.com/abc123"
+  - Floating analytics cards with numbers
+  - Subtle float/pulse animations
+
+**Background**: 
+- Gradient from white to light green
+- Geometric patterns (subtle)
+- Animated particles or dots
+
+---
+
+### 3. Features Section
+**Title**: "Everything You Need to Succeed"
+**Layout**: 3-column grid (mobile: 1 column)
+
+**Features** (6-8 cards):
+
+1. **Short Links**
+   - Icon: Link icon
+   - Title: "Custom Short Links"
+   - Description: "Turn long numbers into memorable links like d-wey.com/myshop"
+
+2. **Click Tracking**
+   - Icon: BarChart icon
+   - Title: "Real-Time Analytics"
+   - Description: "See total clicks, unique visitors, and peak activity times"
+
+3. **Custom Messages**
+   - Icon: MessageSquare icon
+   - Title: "Pre-filled Messages"
+   - Description: "Add custom messages that appear when links are opened"
+
+4. **Temporal Redirects**
+   - Icon: RefreshCw icon
+   - Title: "Temporary Redirects"
+   - Description: "Test ads by redirecting clicks to different numbers"
+
+5. **Shared Access**
+   - Icon: Users icon
+   - Title: "Transparent Tracking"
+   - Description: "Both creator and target can view link statistics"
+
+6. **Auto-Renewal**
+   - Icon: Zap icon
+   - Title: "Auto-Renewal"
+   - Description: "Links renew daily automatically from your wallet"
+
+**Card Style**:
+- White background with subtle shadow
+- Hover: Lift effect, green border glow
+- Icon in circle with gradient background
+- Padding: p-6 to p-8
+
+---
+
+### 4. How It Works Section
+**Title**: "Get Started in 3 Simple Steps"
+**Layout**: Horizontal timeline (mobile: vertical)
+
+**Steps**:
+
+**Step 1: Chat with Bot**
+- Icon: MessageCircle (large, in circle)
+- Number badge: "01"
+- Title: "Message Our WhatsApp Bot"
+- Description: "Send a message to get started. Receive 1000 free tums instantly!"
+- Visual: Screenshot of WhatsApp chat interface
+
+**Step 2: Create Link**
+- Icon: Link (large, in circle)
+- Number badge: "02"
+- Title: "Create Your First Link"
+- Description: "Type: create 08012345678 - Get your custom short link in seconds"
+- Visual: Command example with syntax highlighting
+
+**Step 3: Track & Share**
+- Icon: TrendingUp (large, in circle)
+- Number badge: "03"
+- Title: "Share & Track Performance"
+- Description: "Share your link anywhere. Check stats with: stats LINKCODE"
+- Visual: Analytics dashboard preview
+
+**Connection Line**: Dotted line connecting all steps (animated)
+
+---
+
+### 5. Comprehensive Guides Section
+**Title**: "Learn Everything About D-Wey"
+**Subtitle**: "From basics to advanced features - we've got you covered"
+
+**Layout**: Tab-based interface or accordion
+
+**Guide Categories**:
+
+1. **Getting Started**
+   - Video slot: "Welcome to D-Wey" (3-5 min)
+   - Text: Account setup, first link creation
+   - Image gallery: UI screenshots with annotations
+
+2. **Creating Links**
+   - Video slot: "How to Create Links" (5-7 min)
+   - Text: Detailed guide with examples
+   - Code snippets: Command syntax with copy button
+   - Tips & tricks section
+
+3. **Understanding Analytics**
+   - Video slot: "Reading Your Stats" (4-6 min)
+   - Text: What each metric means
+   - Interactive chart: Sample analytics visualization
+   - Best practices for optimization
+
+4. **Temporal Redirects**
+   - Video slot: "Using Redirects for Testing" (6-8 min)
+   - Text: Use cases and examples
+   - Flowchart: How redirects work
+   - Real-world scenarios
+
+5. **Managing Wallet & Tums**
+   - Video slot: "Getting Free Tums Daily" (3-4 min)
+   - Text: Coupon system, pricing breakdown
+   - Calculator: Daily cost estimator
+   - Tips for maximizing free tums
+
+6. **Advanced Features**
+   - Video slot: "Power User Tips" (7-10 min)
+   - Text: Bulk operations, best practices
+   - Case studies: Success stories
+   - Pro tips section
+
+**Guide Card Design**:
+- Large thumbnail with play button overlay (for videos)
+- Duration badge on videos
+- Read time badge on text guides
+- Tags: "Beginner", "Intermediate", "Advanced"
+- Click to expand/modal with full content
+
+**Media Placeholders**: 
+All video and image URLs should be configurable in `content.js`:
+```javascript
+guides: {
+  gettingStarted: {
+    video: "YOUTUBE_VIDEO_ID_HERE",
+    images: ["IMAGE_URL_1", "IMAGE_URL_2"],
+    // ... content
+  }
+}
+```
+
+---
+
+### 6. Pricing Section
+**Title**: "Simple, Transparent Pricing"
+**Subtitle**: "Pay only for what you use. Get started free!"
+
+**Layout**: Pricing cards (horizontal on desktop)
+
+**Pricing Tiers**:
+
+**Free Tier** (Highlighted):
+- Badge: "Popular"
+- Price: "1000 Tums Free"
+- Description: "Perfect to get started"
+- Features list:
+  - ✅ Create unlimited links
+  - ✅ Full analytics access
+  - ✅ 24-hour link duration
+  - ✅ Daily coupon codes
+  - ✅ WhatsApp support
+- CTA: "Start Free Now"
+
+**Pay Per Use**:
+- Price: "From 20 Tums/Day"
+- Description: "Only pay for active links"
+- Feature breakdown:
+  - Create link: 250 tums
+  - Daily renewal: 20 tums
+  - Check stats: 10 tums
+  - Set redirect: 10 tums
+  - Reactivate: 100 tums
+- CTA: "Get Free Tums"
+
+**Cost Calculator** (Interactive):
+- Slider: Number of active links (1-100)
+- Display: Daily cost (links × 20 tums)
+- Display: Weekly cost
+- Display: Monthly cost
+- Tips for reducing costs
+
+**Free Tums Banner**:
+"💰 Get Free Tums Daily! Check our WhatsApp status for fresh coupon codes every day!"
+
+---
+
+### 7. Media Gallery Section
+**Title**: "See D-Wey in Action"
+**Subtitle**: "Video tutorials, screenshots, and success stories"
+
+**Layout**: Masonry grid or bento box layout
+
+**Content Categories**:
+
+**Video Tutorials** (Large cards):
+- Thumbnail with play icon
+- Video title and duration
+- View count (optional)
+- Click to play in modal or redirect to YouTube
+
+**Screenshots** (Medium cards):
+- Annotated UI screenshots
+- Before/after comparisons
+- Feature highlights
+- Lightbox on click
+
+**Success Stories** (Small cards):
+- User testimonials with avatar
+- Results achieved
+- "See their story" link
+
+**Live Demo** (Interactive card):
+- Embedded demo showing:
+  - Link creation process
+  - Analytics dashboard
+  - Click tracking in real-time
+
+**Configuration**: All media URLs in `content.js`:
+```javascript
+media: {
+  videos: [
+    {
+      id: "video1",
+      title: "Getting Started",
+      thumbnail: "THUMBNAIL_URL",
+      videoUrl: "YOUTUBE_URL",
+      duration: "5:32"
+    }
+  ],
+  images: [
+    {
+      id: "img1",
+      title: "Dashboard Overview",
+      url: "IMAGE_URL",
+      category: "screenshots"
+    }
+  ]
+}
+```
+
+---
+
+### 8. FAQ Section
+**Title**: "Frequently Asked Questions"
+**Layout**: Accordion (2 columns on desktop)
+
+**Questions** (10-15):
+
+1. What is D-Wey?
+2. How do I get started?
+3. What are tums?
+4. How do I get free tums?
+5. How long do links last?
+6. Can I customize my links?
+7. Who can see my analytics?
+8. What are temporal redirects?
+9. How do I reactivate a link?
+10. Is there a mobile app?
+11. How do I contact support?
+12. Can I use this for business?
+
+**Accordion Style**:
+- Question: Bold, with chevron icon
+- Answer: Expandable, smooth animation
+- Search bar at top (filter questions)
+- "Still have questions?" CTA at bottom
+
+---
+
+### 9. Call-to-Action Section
+**Style**: Full-width, gradient background (green to emerald)
+**Layout**: Centered content
+
+**Elements**:
+- **Headline**: "Ready to Transform Your WhatsApp Marketing?"
+  - Font: 4xl-5xl, white, bold
+- **Subheadline**: "Join thousands using D-Wey to grow their business"
+  - Font: xl, white/opacity-90
+- **Stats Bar** (3 columns):
+  - "1000+ Active Users"
+  - "50K+ Links Created"
+  - "1M+ Clicks Tracked"
+- **Primary CTA**: "Start Creating Links Free"
+  - Large button, white background, green text
+  - Arrow icon animation
+  - Click → Opens WhatsApp
+- **Secondary Text**: "No credit card required • 1000 free tums • Cancel anytime"
+
+**Background**: Animated gradient or particles
+
+---
+
+### 10. Footer
+**Style**: Dark background (slate-900), white/gray text
+**Layout**: 4-column grid (mobile: stacked)
+
+**Column 1: Brand**
+- D-Wey logo
+- Tagline: "Smart WhatsApp Link Management"
+- Social media icons (WhatsApp, Twitter/X, Instagram)
+
+**Column 2: Product**
+- Features
+- Pricing
+- How It Works
+- Guides
+- Status Page
+
+**Column 3: Resources**
+- Documentation
+- API (future)
+- Video Tutorials
+- Blog (future)
+- Support
+
+**Column 4: Company**
+- About Us
+- Contact
+- Privacy Policy
+- Terms of Service
+- Refund Policy
+
+**Bottom Bar**:
+- Copyright: "© 2025 D-Wey. All rights reserved."
+- Built with: "Made in Nigeria 🇳🇬"
+- Language selector (future)
+
+---
+
+## Configuration File Structure
+
+Create `src/config/content.js` with all editable content:
+
+```javascript
+export const siteConfig = {
+  // Brand
+  siteName: "D-Wey",
+  tagline: "Smart WhatsApp Link Management",
+  
+  // Contact
+  whatsappNumber: "2348012345678", // EDIT THIS
+  whatsappLink: "https://wa.me/2348012345678?text=Hi!%20I%20want%20to%20start%20creating%20links",
+  supportEmail: "support@d-wey.com",
+  
+  // Social Media
+  social: {
+    whatsapp: "https://wa.me/2348012345678",
+    twitter: "https://twitter.com/dwey", // EDIT THIS
+    instagram: "https://instagram.com/dwey", // EDIT THIS
+  },
+  
+  // Stats
+  stats: {
+    activeUsers: "1000+",
+    linksCreated: "50K+",
+    clicksTracked: "1M+"
+  },
+  
+  // Pricing
+  pricing: {
+    createLink: 250,
+    dailyMaintenance: 20,
+    checkStats: 10,
+    setRedirect: 10,
+    reactivate: 100,
+    signupBonus: 1000
+  },
+  
+  // Media (Videos)
+  videos: {
+    heroDemo: {
+      title: "D-Wey Overview",
+      url: "", // EDIT: Add YouTube URL
+      thumbnail: "", // EDIT: Add thumbnail URL
+      duration: "3:45"
+    },
+    gettingStarted: {
+      title: "Getting Started with D-Wey",
+      url: "", // EDIT: Add YouTube URL
+      thumbnail: "",
+      duration: "5:32"
+    },
+    creatingLinks: {
+      title: "How to Create Links",
+      url: "", // EDIT
+      thumbnail: "",
+      duration: "6:15"
+    },
+    analytics: {
+      title: "Understanding Analytics",
+      url: "", // EDIT
+      thumbnail: "",
+      duration: "4:50"
+    },
+    temporalRedirects: {
+      title: "Using Temporal Redirects",
+      url: "", // EDIT
+      thumbnail: "",
+      duration: "7:20"
+    },
+    walletManagement: {
+      title: "Managing Tums & Coupons",
+      url: "", // EDIT
+      thumbnail: "",
+      duration: "3:30"
+    },
+    advanced: {
+      title: "Power User Tips",
+      url: "", // EDIT
+      thumbnail: "",
+      duration: "8:45"
+    }
+  },
+  
+  // Images/Screenshots
+  images: {
+    dashboardOverview: "", // EDIT
+    linkCreation: "", // EDIT
+    analyticsView: "", // EDIT
+    mobileInterface: "", // EDIT
+    couponRedemption: "", // EDIT
+    redirectSetup: "", // EDIT
+  },
+  
+  // Features
+  features: [
+    {
+      icon: "Link",
+      title: "Custom Short Links",
+      description: "Turn long numbers into memorable links like d-wey.com/myshop"
+    },
+    // ... more features
+  ],
+  
+  // Guides
+  guides: [
+    {
+      id: "getting-started",
+      title: "Getting Started",
+      description: "Learn the basics in 5 minutes",
+      video: "videos.gettingStarted",
+      difficulty: "Beginner",
+      duration: "5 min read",
+      content: `Full markdown content here...`
+    },
+    // ... more guides
+  ],
+  
+  // FAQ
+  faqs: [
+    {
+      question: "What is D-Wey?",
+      answer: "D-Wey is a WhatsApp link shortening service..."
+    },
+    // ... more FAQs
+  ]
+}
+```
+
+---
+
+## Interactive Elements
+
+### 1. WhatsApp Integration
+Every CTA button should open WhatsApp with pre-filled message:
+```javascript
+const openWhatsApp = (message = "Hi! I want to start creating links") => {
+  const url = `https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(message)}`
+  window.open(url, '_blank')
+}
+```
+
+### 2. Video Modals
+Clicking video thumbnails opens modal with embedded player:
+- YouTube/Vimeo embed
+- Close button (X)
+- Next/Previous navigation
+- Playlist queue
+
+### 3. Image Lightbox
+Clicking screenshots opens lightbox:
+- Full-size image
+- Zoom in/out
+- Caption
+- Navigation arrows
+- Close button
+
+### 4. Smooth Scrolling
+All navigation links use smooth scroll behavior
+
+### 5. Cost Calculator
+Interactive slider that calculates daily/weekly/monthly costs based on number of links
+
+### 6. Search Functionality
+Search bar in guides and FAQ sections with instant filtering
+
+---
+
+## Animations & Micro-interactions
+
+1. **Page Load**: Stagger fade-in for sections
+2. **Scroll Animations**: Elements fade/slide in as they enter viewport
+3. **Hover Effects**: 
+   - Cards: Lift + shadow increase
+   - Buttons: Scale + color shift
+   - Links: Underline animation
+4. **CTA Buttons**: Pulse animation loop
+5. **Stats Counter**: Count-up animation when in view
+6. **Video Thumbnails**: Play icon scale on hover
+7. **Mobile Menu**: Slide-in animation
+8. **Loading States**: Skeleton screens for media
+
+---
+
+## Responsive Breakpoints
+
+- **Mobile**: < 640px (1 column layouts)
+- **Tablet**: 640px - 1024px (2 column layouts)
+- **Desktop**: > 1024px (3-4 column layouts)
+- **Large Desktop**: > 1536px (Max width container)
+
+---
+
+## Performance Optimizations
+
+1. **Lazy Loading**: Images and videos load on scroll
+2. **Image Optimization**: WebP format, multiple sizes
+3. **Code Splitting**: Load sections as needed
+4. **Minification**: CSS and JS bundled and minified
+5. **Caching**: Service worker for static assets
+6. **CDN**: Host media on CDN (future)
+
+---
+
+## Accessibility
+
+1. **Semantic HTML**: Proper heading hierarchy
+2. **Alt Text**: All images have descriptive alt text
+3. **Keyboard Navigation**: Tab through all interactive elements
+4. **ARIA Labels**: For icons and dynamic content
+5. **Color Contrast**: WCAG AA compliance
+6. **Focus Indicators**: Visible focus states
+7. **Screen Reader**: Announcements for dynamic content
+
+---
+
+## SEO Optimization
+
+1. **Meta Tags**: Title, description, OG tags
+2. **Structured Data**: JSON-LD for rich snippets
+3. **Sitemap**: XML sitemap
+4. **Robots.txt**: Proper indexing rules
+5. **Canonical URLs**: Prevent duplicate content
+6. **Performance**: Fast load times (< 3s)
+
+---
+
+## Deployment Instructions
+
+### For Replit:
+1. Create new React + Vite Repl
+2. Copy all code
+3. Edit `src/config/content.js` with your URLs
+4. Run `npm install`
+5. Run `npm run dev` for development
+6. Run `npm run build` for production
+7. Deploy static files from `/dist`
+
+### Environment Variables:
+```
+VITE_WHATSAPP_NUMBER=2348012345678
+VITE_SITE_URL=https://d-wey.com
+VITE_BOT_DOMAIN=https://d-wey.com
+```
+
+---
+
+## Additional Features (Future Enhancements)
+
+1. **Blog Section**: Articles about WhatsApp marketing
+2. **Case Studies**: Success stories with metrics
+3. **Affiliate Program**: Referral system
+4. **Language Switcher**: Multi-language support
+5. **Dark Mode Toggle**: System preference detection
+6. **Live Chat**: WhatsApp Web integration
+7. **Newsletter**: Email subscription
+8. **Testimonials Carousel**: User reviews
+9. **Status Page**: Real-time service status
+10. **Documentation**: API docs (future)
+
+---
+
+## Final Prompt for Replit Agent
+
+**USE THIS EXACT PROMPT:**
+
+```
+Create a modern, responsive React website for D-Wey - a WhatsApp link shortening service.
+
+REQUIREMENTS:
+- Use React + Vite + Tailwind CSS + Lucide React
+- Single-page application with smooth scrolling
+- Mobile-first, fully responsive design
+- Modern UI with glassmorphism, gradients, and micro-animations
+- WhatsApp green (#10b981) as primary color
+
+MUST INCLUDE THESE SECTIONS:
+1. Sticky navigation with logo and menu
+2. Hero section with headline, CTA buttons, and animated mockup
+3. Features grid (6-8 cards with icons)
+4. "How It Works" timeline (3 steps)
+5. Comprehensive Guides section with tabs for:
+   - Getting Started
+   - Creating Links
+   - Understanding Analytics
+   - Temporal Redirects
+   - Managing Wallet
+   - Advanced Features
+   Each guide should have slots for: video (YouTube embed), images, and text content
+6. Pricing section with calculator
+7. Media Gallery (videos and screenshots in masonry/grid layout)
+8. FAQ accordion
+9. CTA section with stats
+10. Footer with links
+
+IMPORTANT - CONFIGURATION FILE:
+Create src/config/content.js with ALL editable content including:
+- WhatsApp number and links
+- Social media URLs
+- Video URLs (YouTube embeds) - use placeholders like "YOUTUBE_VIDEO_ID_HERE"
+- Image URLs - use placeholders like "IMAGE_URL_HERE"
+- Pricing values
+- Feature lists
+- FAQ content
+- Guide content
+
+Make it easy to edit media URLs later by centralizing everything in content.js.
+
+ALL CTA buttons should open WhatsApp with pre-filled message.
+Add clear comments in content.js showing where to add YouTube video IDs and image URLs.
+Include example structure for all media placeholders.
+
+Design should be:
+- Clean and modern
+- Lots of whitespace
+- Bold typography
+- Smooth animations
+- Professional but friendly
+- Mobile-perfect
+```
+
+---
+
+## Success Criteria
+
+✅ Website loads in < 3 seconds
+✅ Perfect mobile experience
+✅ All sections render correctly
+✅ Video embeds work (when URLs added)
+✅ Images load with placeholders
+✅ WhatsApp links open correctly
+✅ Smooth scrolling works
+✅ All content is editable in content.js
+✅ Responsive on all screen sizes
+✅ Accessible (keyboard navigation, screen readers)
+✅ SEO optimized
+
+---
+
+**Ready to build?** Copy the final prompt above into Replit Agent and watch it create your stunning D-Wey website! 🚀
+
+Once generated, you'll only need to edit the `content.js` file to add your video URLs, images, and any custom content.
