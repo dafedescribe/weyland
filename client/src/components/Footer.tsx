@@ -1,4 +1,4 @@
-import { SiWhatsapp, SiTwitter, SiInstagram } from "react-icons/si";
+import { SiWhatsapp, SiX, SiInstagram } from "react-icons/si";
 import { Link as ScrollLink } from "react-scroll";
 import { siteConfig } from "@/config/content";
 
@@ -40,7 +40,7 @@ export function Footer() {
                 className="w-10 h-10 rounded-lg bg-slate-800 hover:bg-primary transition-colors flex items-center justify-center"
                 data-testid="link-social-twitter"
               >
-                <SiTwitter className="w-5 h-5" />
+                <SiX className="w-5 h-5" />
               </a>
               <a
                 href={siteConfig.social.instagram}
