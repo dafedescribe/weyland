@@ -13,13 +13,11 @@ export function Footer() {
           {/* Brand Column */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center p-1.5">
-                <img 
-                  src="/custom-logo.png" 
-                  alt={siteConfig.siteName} 
-                  className="w-full h-full object-contain"
-                />
-              </div>
+              <img 
+                src="/custom-logo.png" 
+                alt={siteConfig.siteName} 
+                className="h-10 w-auto object-contain"
+              />
               <span className="text-2xl font-display font-bold text-white">
                 {siteConfig.siteName}
               </span>

@@ -105,13 +105,11 @@ export function Hero() {
               <div className="relative mx-auto max-w-sm">
                 <Card className="p-6 space-y-4 backdrop-blur-sm bg-card/90 border-2">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center p-2">
-                      <img 
-                        src="/custom-logo.png" 
-                        alt="D-Wey Bot" 
-                        className="w-full h-full object-contain"
-                      />
-                    </div>
+                    <img 
+                      src="/custom-logo.png" 
+                      alt="D-Wey Bot" 
+                      className="w-12 h-12 object-contain rounded-full"
+                    />
                     <div>
                       <div className="font-semibold">D-Wey Bot</div>
                       <div className="text-sm text-muted-foreground">Active now</div>

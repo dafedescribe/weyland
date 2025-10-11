@@ -225,21 +225,48 @@ export const siteConfig = {
   sponsors: [
     {
       id: "sponsor1",
-      name: "Example Business",
+      name: "TechHub Nigeria",
       logo: "", // EDIT: Add logo URL or path
       service: "Digital Marketing Services",
-      description: "Professional marketing solutions for your business",
+      description: "Professional marketing solutions for your business growth",
       whatsappNumber: "2348012345678", // EDIT THIS
-      whatsappMessage: "Hi! I'm interested in your services"
+      whatsappMessage: "Hi! I'm interested in your digital marketing services"
     },
     {
       id: "sponsor2",
-      name: "Partner Company",
+      name: "WebCraft Solutions",
       logo: "", // EDIT: Add logo URL or path
       service: "Web Development",
-      description: "Custom web solutions and development",
+      description: "Custom web solutions and development services",
       whatsappNumber: "2348012345678", // EDIT THIS
-      whatsappMessage: "Hi! I'd like to know more about your services"
+      whatsappMessage: "Hi! I'd like to know more about your web development services"
+    },
+    {
+      id: "sponsor3",
+      name: "BrandBoost Media",
+      logo: "", // EDIT: Add logo URL or path
+      service: "Social Media Management",
+      description: "Grow your brand presence across all social platforms",
+      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappMessage: "Hello! I need help with social media management"
+    },
+    {
+      id: "sponsor4",
+      name: "PayStack Integration",
+      logo: "", // EDIT: Add logo URL or path
+      service: "Payment Solutions",
+      description: "Seamless payment integration for Nigerian businesses",
+      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappMessage: "Hi! I want to integrate payment solutions"
+    },
+    {
+      id: "sponsor5",
+      name: "DataFlow Analytics",
+      logo: "", // EDIT: Add logo URL or path
+      service: "Business Analytics",
+      description: "Data-driven insights to optimize your business performance",
+      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappMessage: "Hi! I'm interested in your analytics services"
     }
   ],
   
