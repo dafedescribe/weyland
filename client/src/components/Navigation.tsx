@@ -24,6 +24,7 @@ export function Navigation() {
     { label: "How It Works", to: "how-it-works" },
     { label: "Guides", to: "guides" },
     { label: "Pricing", to: "pricing" },
+    { label: "Sponsors", to: "sponsors" },
     { label: "FAQ", to: "faq" },
   ];
 
@@ -39,11 +40,13 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <img 
-              src="/custom-logo.png" 
-              alt={siteConfig.siteName} 
-              className="w-10 h-10 rounded-lg object-contain"
-            />
+            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center p-1.5">
+              <img 
+                src="/custom-logo.png" 
+                alt={siteConfig.siteName} 
+                className="w-full h-full object-contain"
+              />
+            </div>
             <span className="text-xl md:text-2xl font-display font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
               {siteConfig.siteName}
             </span>

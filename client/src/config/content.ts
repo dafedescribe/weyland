@@ -221,6 +221,28 @@ export const siteConfig = {
     ]
   },
   
+  // Sponsors
+  sponsors: [
+    {
+      id: "sponsor1",
+      name: "Example Business",
+      logo: "", // EDIT: Add logo URL or path
+      service: "Digital Marketing Services",
+      description: "Professional marketing solutions for your business",
+      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappMessage: "Hi! I'm interested in your services"
+    },
+    {
+      id: "sponsor2",
+      name: "Partner Company",
+      logo: "", // EDIT: Add logo URL or path
+      service: "Web Development",
+      description: "Custom web solutions and development",
+      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappMessage: "Hi! I'd like to know more about your services"
+    }
+  ],
+  
   // FAQ
   faqs: [
     {
