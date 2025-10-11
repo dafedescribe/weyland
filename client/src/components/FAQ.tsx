@@ -31,7 +31,7 @@ export function FAQ() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Everything you need to know about D-Wey
+            Everything you need to know about wey
           </p>
 
           {/* Search Bar */}

@@ -1,16 +1,16 @@
 export const siteConfig = {
   // Brand
-  siteName: "D-Wey",
+  siteName: "wey",
   tagline: "Smart WhatsApp Link Management",
   
   // Contact
-  whatsappNumber: "2348012345678", // EDIT THIS
-  whatsappLink: "https://wa.me/2348012345678?text=Hi!%20I%20want%20to%20start%20creating%20links",
-  supportEmail: "support@d-wey.com",
+  whatsappNumber: "2349132480302", // EDIT THIS
+  whatsappLink: "https://wa.me/2349132480302?text=Hi!%20I%20want%20to%20start%20creating%20links",
+  supportEmail: "support@wey.com",
   
   // Social Media
   social: {
-    whatsapp: "https://wa.me/2348012345678",
+    whatsapp: "https://wa.me/2349132480302",
     twitter: "https://twitter.com/dwey", // EDIT THIS
     instagram: "https://instagram.com/dwey", // EDIT THIS
   },
@@ -41,7 +41,7 @@ export const siteConfig = {
       id: "short-links",
       icon: "Link",
       title: "Custom Short Links",
-      description: "Turn long numbers into memorable links like d-wey.com/myshop"
+      description: "Turn long numbers into memorable links like wey.com/myshop"
     },
     {
       id: "analytics",
@@ -113,7 +113,7 @@ export const siteConfig = {
       difficulty: "Beginner",
       videoUrl: "", // EDIT: Add YouTube URL
       thumbnail: "", // EDIT: Add thumbnail URL
-      content: "Learn how to set up your D-Wey account and create your first WhatsApp link in minutes."
+      content: "Learn how to set up your wey account and create your first WhatsApp link in minutes."
     },
     {
       id: "creating-links",
@@ -163,7 +163,7 @@ export const siteConfig = {
       difficulty: "Advanced",
       videoUrl: "", // EDIT: Add YouTube URL
       thumbnail: "", // EDIT: Add thumbnail URL
-      content: "Unlock the full potential of D-Wey with bulk operations and pro tips."
+      content: "Unlock the full potential of wey with bulk operations and pro tips."
     }
   ],
   
@@ -172,7 +172,7 @@ export const siteConfig = {
     videos: [
       {
         id: "video1",
-        title: "Getting Started with D-Wey",
+        title: "Getting Started with wey",
         thumbnail: "", // EDIT: Add thumbnail URL
         videoUrl: "", // EDIT: Add YouTube URL
         duration: "5:32",
@@ -207,7 +207,7 @@ export const siteConfig = {
         name: "Chidi Okafor",
         role: "Business Owner",
         avatar: "", // EDIT: Add avatar URL
-        content: "D-Wey helped me track my WhatsApp marketing campaigns effectively. Highly recommended!",
+        content: "wey helped me track my WhatsApp marketing campaigns effectively. Highly recommended!",
         results: "300% increase in conversions"
       },
       {
@@ -229,7 +229,7 @@ export const siteConfig = {
       logo: "", // EDIT: Add logo URL or path
       service: "Digital Marketing Services",
       description: "Professional marketing solutions for your business growth",
-      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappNumber: "2349132480302", // EDIT THIS
       whatsappMessage: "Hi! I'm interested in your digital marketing services"
     },
     {
@@ -238,7 +238,7 @@ export const siteConfig = {
       logo: "", // EDIT: Add logo URL or path
       service: "Web Development",
       description: "Custom web solutions and development services",
-      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappNumber: "2349132480302", // EDIT THIS
       whatsappMessage: "Hi! I'd like to know more about your web development services"
     },
     {
@@ -247,7 +247,7 @@ export const siteConfig = {
       logo: "", // EDIT: Add logo URL or path
       service: "Social Media Management",
       description: "Grow your brand presence across all social platforms",
-      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappNumber: "2349132480302", // EDIT THIS
       whatsappMessage: "Hello! I need help with social media management"
     },
     {
@@ -256,7 +256,7 @@ export const siteConfig = {
       logo: "", // EDIT: Add logo URL or path
       service: "Payment Solutions",
       description: "Seamless payment integration for Nigerian businesses",
-      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappNumber: "2349132480302", // EDIT THIS
       whatsappMessage: "Hi! I want to integrate payment solutions"
     },
     {
@@ -265,7 +265,7 @@ export const siteConfig = {
       logo: "", // EDIT: Add logo URL or path
       service: "Business Analytics",
       description: "Data-driven insights to optimize your business performance",
-      whatsappNumber: "2348012345678", // EDIT THIS
+      whatsappNumber: "2349132480302", // EDIT THIS
       whatsappMessage: "Hi! I'm interested in your analytics services"
     }
   ],
@@ -274,8 +274,8 @@ export const siteConfig = {
   faqs: [
     {
       id: "faq1",
-      question: "What is D-Wey?",
-      answer: "D-Wey is a WhatsApp link shortening and analytics service that helps you create trackable short links for WhatsApp numbers, monitor clicks, and grow your business."
+      question: "What is wey?",
+      answer: "wey is a WhatsApp link shortening and analytics service that helps you create trackable short links for WhatsApp numbers, monitor clicks, and grow your business."
     },
     {
       id: "faq2",
@@ -285,7 +285,7 @@ export const siteConfig = {
     {
       id: "faq3",
       question: "What are tums?",
-      answer: "Tums are the credits used to create and maintain links on D-Wey. Each action (creating links, checking stats, etc.) costs a certain number of tums."
+      answer: "Tums are the credits used to create and maintain links on wey. Each action (creating links, checking stats, etc.) costs a certain number of tums."
     },
     {
       id: "faq4",
@@ -320,17 +320,17 @@ export const siteConfig = {
     {
       id: "faq10",
       question: "Is there a mobile app?",
-      answer: "D-Wey works entirely through WhatsApp - no separate app needed! Just message our bot to manage everything."
+      answer: "wey works entirely through WhatsApp - no separate app needed! Just message our bot to manage everything."
     },
     {
       id: "faq11",
       question: "How do I contact support?",
-      answer: "You can reach our support team via WhatsApp at the same bot number, or email us at support@d-wey.com."
+      answer: "You can reach our support team via WhatsApp at the same bot number, or email us at support@wey.com."
     },
     {
       id: "faq12",
       question: "Can I use this for business?",
-      answer: "Absolutely! D-Wey is perfect for businesses of all sizes. Track your marketing campaigns, measure ROI, and optimize your WhatsApp outreach."
+      answer: "Absolutely! wey is perfect for businesses of all sizes. Track your marketing campaigns, measure ROI, and optimize your WhatsApp outreach."
     },
     {
       id: "faq13",

@@ -23,7 +23,7 @@ export function CTA() {
 
         {/* Subheadline */}
         <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">
-          Join thousands using D-Wey to grow their business
+          Join thousands using wey to grow their business
         </p>
 
         {/* Stats Bar */}

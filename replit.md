@@ -1,8 +1,8 @@
-# D-Wey WhatsApp Link Service
+# wey WhatsApp Link Service
 
 ## Overview
 
-D-Wey is a WhatsApp link shortening and analytics service designed as a modern, single-page marketing website. The application allows users to turn WhatsApp numbers into trackable short links, monitor clicks, and grow their business through smart link management. The project is built as a static marketing site with planned backend functionality for link creation, analytics tracking, and user management.
+wey is a WhatsApp link shortening and analytics service designed as a modern, single-page marketing website. The application allows users to turn WhatsApp numbers into trackable short links, monitor clicks, and grow their business through smart link management. The project is built as a static marketing site with planned backend functionality for link creation, analytics tracking, and user management.
 
 ## Recent Changes
 

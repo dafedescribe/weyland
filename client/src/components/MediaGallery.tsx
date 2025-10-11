@@ -13,7 +13,7 @@ export function MediaGallery() {
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             See{" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              D-Wey
+              wey
             </span>{" "}
             in Action
           </h2>

@@ -1,4 +1,4 @@
-# D-Wey WhatsApp Link Service - Design Guidelines
+# wey WhatsApp Link Service - Design Guidelines
 
 ## Design Approach
 **Reference-Based Approach**: WhatsApp-themed modern SaaS design with influences from contemporary link management and analytics platforms, emphasizing emerald green brand identity with glassmorphism effects.
@@ -112,7 +112,7 @@
 **Key Principle**: Minimal, purposeful animations - no excessive motion
 
 ## Images & Media
-**Hero Section**: Animated phone mockup showing WhatsApp interface with D-Wey link (custom illustration or high-quality stock)
+**Hero Section**: Animated phone mockup showing WhatsApp interface with wey link (custom illustration or high-quality stock)
 
 **How It Works**: 3 screenshots showing:
 1. WhatsApp chat with bot

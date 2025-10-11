@@ -107,11 +107,11 @@ export function Hero() {
                   <div className="flex items-center gap-3">
                     <img 
                       src="/custom-logo.png" 
-                      alt="D-Wey Bot" 
+                      alt="wey Bot" 
                       className="w-12 h-12 object-contain rounded-full"
                     />
                     <div>
-                      <div className="font-semibold">D-Wey Bot</div>
+                      <div className="font-semibold">wey Bot</div>
                       <div className="text-sm text-muted-foreground">Active now</div>
                     </div>
                   </div>
@@ -123,7 +123,7 @@ export function Hero() {
                     <div className="bg-muted rounded-lg p-3 max-w-[80%]">
                       <p className="text-sm font-medium">✅ Link Created!</p>
                       <p className="text-xs text-muted-foreground mt-1">
-                        d-wey.com/abc123
+                        wey.com/abc123
                       </p>
                     </div>
                   </div>

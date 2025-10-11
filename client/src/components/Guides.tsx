@@ -22,7 +22,7 @@ export function Guides() {
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             Learn Everything About{" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              D-Wey
+              wey
             </span>
           </h2>
           <p className="text-lg text-muted-foreground">

@@ -1,7 +1,7 @@
-# D-Wey Link Service - Complete Website Design Prompt for Replit
+# wey Link Service - Complete Website Design Prompt for Replit
 
 ## Project Overview
-Create a modern, responsive single-page website for D-Wey - a WhatsApp link shortening and analytics service. The site should be visually stunning, mobile-first, and include sections for service information, guides, media content, and clear calls-to-action.
+Create a modern, responsive single-page website for wey - a WhatsApp link shortening and analytics service. The site should be visually stunning, mobile-first, and include sections for service information, guides, media content, and clear calls-to-action.
 
 ---
 
@@ -71,7 +71,7 @@ Create a modern, responsive single-page website for D-Wey - a WhatsApp link shor
 ### 1. Navigation Bar
 **Position**: Sticky top, glassmorphic background
 **Elements**:
-- Logo: "D-Wey" with WhatsApp green icon
+- Logo: "wey" with WhatsApp green icon
 - Menu items: Features, How It Works, Guides, Pricing, FAQ
 - CTA Button: "Start Free" (prominent, animated)
 - Mobile hamburger menu
@@ -101,7 +101,7 @@ Create a modern, responsive single-page website for D-Wey - a WhatsApp link shor
 **Right Side** (40%):
 - Animated mockup/illustration:
   - Phone showing WhatsApp interface
-  - Short link example: "d-wey.com/abc123"
+  - Short link example: "wey.com/abc123"
   - Floating analytics cards with numbers
   - Subtle float/pulse animations
 
@@ -121,7 +121,7 @@ Create a modern, responsive single-page website for D-Wey - a WhatsApp link shor
 1. **Short Links**
    - Icon: Link icon
    - Title: "Custom Short Links"
-   - Description: "Turn long numbers into memorable links like d-wey.com/myshop"
+   - Description: "Turn long numbers into memorable links like wey.com/myshop"
 
 2. **Click Tracking**
    - Icon: BarChart icon
@@ -188,7 +188,7 @@ Create a modern, responsive single-page website for D-Wey - a WhatsApp link shor
 ---
 
 ### 5. Comprehensive Guides Section
-**Title**: "Learn Everything About D-Wey"
+**Title**: "Learn Everything About wey"
 **Subtitle**: "From basics to advanced features - we've got you covered"
 
 **Layout**: Tab-based interface or accordion
@@ -196,7 +196,7 @@ Create a modern, responsive single-page website for D-Wey - a WhatsApp link shor
 **Guide Categories**:
 
 1. **Getting Started**
-   - Video slot: "Welcome to D-Wey" (3-5 min)
+   - Video slot: "Welcome to wey" (3-5 min)
    - Text: Account setup, first link creation
    - Image gallery: UI screenshots with annotations
 
@@ -295,7 +295,7 @@ guides: {
 ---
 
 ### 7. Media Gallery Section
-**Title**: "See D-Wey in Action"
+**Title**: "See wey in Action"
 **Subtitle**: "Video tutorials, screenshots, and success stories"
 
 **Layout**: Masonry grid or bento box layout
@@ -356,7 +356,7 @@ media: {
 
 **Questions** (10-15):
 
-1. What is D-Wey?
+1. What is wey?
 2. How do I get started?
 3. What are tums?
 4. How do I get free tums?
@@ -384,7 +384,7 @@ media: {
 **Elements**:
 - **Headline**: "Ready to Transform Your WhatsApp Marketing?"
   - Font: 4xl-5xl, white, bold
-- **Subheadline**: "Join thousands using D-Wey to grow their business"
+- **Subheadline**: "Join thousands using wey to grow their business"
   - Font: xl, white/opacity-90
 - **Stats Bar** (3 columns):
   - "1000+ Active Users"
@@ -405,7 +405,7 @@ media: {
 **Layout**: 4-column grid (mobile: stacked)
 
 **Column 1: Brand**
-- D-Wey logo
+- wey logo
 - Tagline: "Smart WhatsApp Link Management"
 - Social media icons (WhatsApp, Twitter/X, Instagram)
 
@@ -431,7 +431,7 @@ media: {
 - Refund Policy
 
 **Bottom Bar**:
-- Copyright: "© 2025 D-Wey. All rights reserved."
+- Copyright: "© 2025 wey. All rights reserved."
 - Built with: "Made in Nigeria 🇳🇬"
 - Language selector (future)
 
@@ -444,17 +444,17 @@ Create `src/config/content.js` with all editable content:
 ```javascript
 export const siteConfig = {
   // Brand
-  siteName: "D-Wey",
+  siteName: "wey",
   tagline: "Smart WhatsApp Link Management",
   
   // Contact
-  whatsappNumber: "2348012345678", // EDIT THIS
-  whatsappLink: "https://wa.me/2348012345678?text=Hi!%20I%20want%20to%20start%20creating%20links",
-  supportEmail: "support@d-wey.com",
+  whatsappNumber: "2349132480302", // EDIT THIS
+  whatsappLink: "https://wa.me/2349132480302?text=Hi!%20I%20want%20to%20start%20creating%20links",
+  supportEmail: "support@wey.com",
   
   // Social Media
   social: {
-    whatsapp: "https://wa.me/2348012345678",
+    whatsapp: "https://wa.me/2349132480302",
     twitter: "https://twitter.com/dwey", // EDIT THIS
     instagram: "https://instagram.com/dwey", // EDIT THIS
   },
@@ -479,13 +479,13 @@ export const siteConfig = {
   // Media (Videos)
   videos: {
     heroDemo: {
-      title: "D-Wey Overview",
+      title: "wey Overview",
       url: "", // EDIT: Add YouTube URL
       thumbnail: "", // EDIT: Add thumbnail URL
       duration: "3:45"
     },
     gettingStarted: {
-      title: "Getting Started with D-Wey",
+      title: "Getting Started with wey",
       url: "", // EDIT: Add YouTube URL
       thumbnail: "",
       duration: "5:32"
@@ -537,7 +537,7 @@ export const siteConfig = {
     {
       icon: "Link",
       title: "Custom Short Links",
-      description: "Turn long numbers into memorable links like d-wey.com/myshop"
+      description: "Turn long numbers into memorable links like wey.com/myshop"
     },
     // ... more features
   ],
@@ -559,8 +559,8 @@ export const siteConfig = {
   // FAQ
   faqs: [
     {
-      question: "What is D-Wey?",
-      answer: "D-Wey is a WhatsApp link shortening service..."
+      question: "What is wey?",
+      answer: "wey is a WhatsApp link shortening service..."
     },
     // ... more FAQs
   ]
@@ -678,9 +678,9 @@ Search bar in guides and FAQ sections with instant filtering
 
 ### Environment Variables:
 ```
-VITE_WHATSAPP_NUMBER=2348012345678
-VITE_SITE_URL=https://d-wey.com
-VITE_BOT_DOMAIN=https://d-wey.com
+VITE_WHATSAPP_NUMBER=2349132480302
+VITE_SITE_URL=https://wey.com
+VITE_BOT_DOMAIN=https://wey.com
 ```
 
 ---
@@ -705,7 +705,7 @@ VITE_BOT_DOMAIN=https://d-wey.com
 **USE THIS EXACT PROMPT:**
 
 ```
-Create a modern, responsive React website for D-Wey - a WhatsApp link shortening service.
+Create a modern, responsive React website for wey - a WhatsApp link shortening service.
 
 REQUIREMENTS:
 - Use React + Vite + Tailwind CSS + Lucide React
@@ -777,6 +777,6 @@ Design should be:
 
 ---
 
-**Ready to build?** Copy the final prompt above into Replit Agent and watch it create your stunning D-Wey website! 🚀
+**Ready to build?** Copy the final prompt above into Replit Agent and watch it create your stunning wey website! 🚀
 
 Once generated, you'll only need to edit the `content.js` file to add your video URLs, images, and any custom content.
