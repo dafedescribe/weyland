@@ -6,20 +6,15 @@ D-Wey is a WhatsApp link shortening and analytics service designed as a modern, 
 
 ## Recent Changes
 
-**Sponsors Section & Logo Enhancement** (October 11, 2025)
-- Enhanced logo display with green gradient background to make icon more prominent
-- Added dynamic Sponsors section component with support for partner/sponsor listings
-- Sponsors data structure includes: name, logo, service, description, WhatsApp contact
+**Sponsors Section & Logo Update** (October 11, 2025)
+- Updated to new brand logo (downloaded from Google Drive, stored at `client/public/custom-logo.png`)
+- Removed green gradient background - logo now displays cleanly without container
+- Added dynamic Sponsors section with 5 partners: TechHub Nigeria, WebCraft Solutions, BrandBoost Media, PayStack Integration, DataFlow Analytics
+- Sponsors data structure includes: name, logo, service, description, WhatsApp contact with custom messages
 - Sponsors section displays responsive cards with fallback for missing logos
 - Added "Sponsors" navigation link to header menu
 - Implementation allows easy updates via `client/src/config/content.ts`
-
-**Custom Logo Implementation** (October 11, 2025)
-- Replaced default WhatsApp icons with custom brand logo
-- Custom logo downloaded from Google Drive and stored at `client/public/custom-logo.png`
-- Updated Navigation, Footer, and Hero components to use custom logo within green containers
-- Maintained WhatsApp icons in CTA buttons as they represent WhatsApp actions
-- Logo implementation is production-ready for Vercel deployment
+- Logo and sponsors implementation is production-ready for Vercel deployment
 
 **Vercel Deployment Setup** (October 11, 2025)
 - Created `vercel.json` configuration for serverless deployment
