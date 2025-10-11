@@ -121,7 +121,7 @@ export const siteConfig = {
       description: "Detailed guide with examples",
       duration: "5-7 min",
       difficulty: "Beginner",
-      videoUrl: "", // EDIT: Add YouTube URL
+      videoUrl: "https://jmzffktmlxvezqhembfe.supabase.co/storage/v1/object/public/wey_guides/link_create_and_check.mp4", // EDIT: Add YouTube URL
       thumbnail: "", // EDIT: Add thumbnail URL
       content: "Master the art of creating effective WhatsApp links with custom messages and settings."
     },
