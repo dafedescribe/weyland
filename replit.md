@@ -4,6 +4,22 @@
 
 D-Wey is a WhatsApp link shortening and analytics service designed as a modern, single-page marketing website. The application allows users to turn WhatsApp numbers into trackable short links, monitor clicks, and grow their business through smart link management. The project is built as a static marketing site with planned backend functionality for link creation, analytics tracking, and user management.
 
+## Recent Changes
+
+**Custom Logo Implementation** (October 11, 2025)
+- Replaced default WhatsApp icons with custom brand logo
+- Custom logo downloaded from Google Drive and stored at `client/public/custom-logo.png`
+- Updated Navigation, Footer, and Hero components to use custom logo
+- Maintained WhatsApp icons in CTA buttons as they represent WhatsApp actions
+- Logo implementation is production-ready for Vercel deployment
+
+**Vercel Deployment Setup** (October 11, 2025)
+- Created `vercel.json` configuration for serverless deployment
+- Built `api/index.ts` serverless entry point for Express backend
+- Created `.env.example` documenting required environment variables
+- Documented deployment process in `VERCEL_DEPLOYMENT.md`
+- Application is Vercel-ready with no Replit environment dependencies
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
